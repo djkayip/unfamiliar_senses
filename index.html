@@ -2,14 +2,19 @@
 <html lang="ko" data-theme="dark">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Lock the page scale: this is a fixed full-screen app (the graph has its
+         own zoom), and without maximum-scale iPadOS Safari can leave the page
+         zoomed after a Split View / Stage Manager resize, pushing the bottom-
+         docked history bar / drawer close button outside the visual viewport.
+         viewport-fit=cover lets us pad against the safe-area insets. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
     <title>다가올 낯선 감각들</title>
     
-		<link rel="modulepreload" href="./_app/immutable/entry/start.DdjxOQAS.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.CQ04wBL7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CO2H5IOo.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.BSJIFoDS.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.Crs5Mg4i.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.DYTWXAZi.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.xPLoRCXb.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DkNmx_bI.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.C1FmrZbK.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.BUt0FM7X.js">
   </head>
@@ -17,15 +22,15 @@
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_1t9cv08 = {
+					__sveltekit_167enru = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.DdjxOQAS.js"),
-						import("./_app/immutable/entry/app.xPLoRCXb.js")
+						import("./_app/immutable/entry/start.CO2H5IOo.js"),
+						import("./_app/immutable/entry/app.DkNmx_bI.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
