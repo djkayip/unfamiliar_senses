@@ -5,11 +5,11 @@ All paths are relative, so this works at any URL without reconfiguration.
 
 ## Deploy to GitHub Pages
 
-1. Push this folder's contents to the **main** branch of `djkayip/unfamiliar_senses`.
+1. Push this folder's contents to the **main** branch of `sewonist/unfamiliar_senses`.
 2. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. The included workflow (`.github/workflows/deploy.yml`) publishes on every push.
 
-Site URL: https://djkayip.github.io/unfamiliar_senses/
+Site URL: https://sewonist.github.io/unfamiliar_senses/
 
 ## Local preview
 
