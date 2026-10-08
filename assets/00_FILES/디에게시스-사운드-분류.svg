@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="550" viewBox="0 0 560 550" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>사운드의 분류: 미셸 시옹의 관점</title>
+  <desc>디제틱 사운드(이야기 세계 안 — 화면 영역과 비화면 영역)와 논-디제틱 사운드(이야기 세계 밖)가 두 축을 이루고, 트랜스-디제틱 사운드가 그 사이를 오간다.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2f8fef"/>
+    </marker>
+  </defs>
+
+  <!-- ── 왼쪽 축: 디제틱 사운드 ── -->
+  <rect x="10" y="10" width="214" height="528" rx="22" fill="#7dc4dd" fill-opacity="0.07" stroke="#7dc4dd" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <text x="30" y="48" font-size="20" font-weight="700" fill="#7dc4dd">디제틱 사운드</text>
+  <text x="30" y="74" font-size="15" fill="#85858f">이야기 세계 안의 소리</text>
+  <text x="30" y="96" font-size="15" fill="#85858f">극 중 인물도 듣는다</text>
+
+  <!-- 화면 영역 — 화면 프레임 안 -->
+  <rect x="26" y="118" width="182" height="194" rx="8" fill="none" stroke="#85858f" stroke-opacity="0.75" stroke-width="1.5"/>
+  <text x="40" y="146" font-size="17" font-weight="700" fill="#7dc4dd">화면 영역</text>
+  <circle cx="117" cy="194" r="14" fill="#7dc4dd"/>
+  <g fill="none" stroke="#7dc4dd" stroke-width="2" stroke-linecap="round">
+    <path d="M138 182 A 16 16 0 0 1 138 206" stroke-opacity="0.8"/>
+    <path d="M147 174 A 27 27 0 0 1 147 214" stroke-opacity="0.5"/>
+    <path d="M96 182 A 16 16 0 0 0 96 206" stroke-opacity="0.8"/>
+    <path d="M87 174 A 27 27 0 0 0 87 214" stroke-opacity="0.5"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="117" y="250" font-size="14" fill="#85858f">발원체가 화면 안에 있다</text>
+    <text x="117" y="276" font-size="13" fill="#85858f" fill-opacity="0.8">예: 화면에 보이는</text>
+    <text x="117" y="294" font-size="13" fill="#85858f" fill-opacity="0.8">등장인물의 대화</text>
+  </g>
+
+  <!-- 비화면 영역 — 화면 밖, 소리는 화면 쪽으로 번진다 -->
+  <text x="40" y="346" font-size="17" font-weight="700" fill="#7dc4dd">비화면 영역</text>
+  <g fill="none" stroke="#7dc4dd" stroke-width="2" stroke-linecap="round">
+    <path d="M103 400 A 18 18 0 0 1 131 400" stroke-opacity="0.8"/>
+    <path d="M93 388 A 32 32 0 0 1 141 388" stroke-opacity="0.55"/>
+    <path d="M83 376 A 48 48 0 0 1 151 376" stroke-opacity="0.35"/>
+  </g>
+  <circle cx="117" cy="422" r="13" fill="none" stroke="#7dc4dd" stroke-width="3"/>
+  <g text-anchor="middle">
+    <text x="117" y="472" font-size="14" fill="#85858f">발원체가 화면 밖에 있다</text>
+    <text x="117" y="498" font-size="13" fill="#85858f" fill-opacity="0.8">예: 〈사이코〉, 저택에서 울리는</text>
+    <text x="117" y="516" font-size="13" fill="#85858f" fill-opacity="0.8">보이지 않는 어머니의 목소리</text>
+  </g>
+
+  <!-- ── 오른쪽 축: 논-디제틱 사운드 ── -->
+  <rect x="336" y="10" width="214" height="528" rx="22" fill="#9a8fe0" fill-opacity="0.07" stroke="#9a8fe0" stroke-opacity="0.7" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <text x="356" y="48" font-size="20" font-weight="700" fill="#9a8fe0">논-디제틱 사운드</text>
+  <text x="356" y="74" font-size="15" fill="#85858f">이야기 세계 밖의 소리</text>
+  <text x="356" y="96" font-size="15" fill="#85858f">관객만 듣는다</text>
+  <text x="366" y="214" font-size="17" font-weight="700" fill="#9a8fe0">덧입혀진 소리</text>
+  <circle cx="443" cy="262" r="14" fill="#9a8fe0"/>
+  <g fill="none" stroke="#9a8fe0" stroke-width="2" stroke-linecap="round">
+    <path d="M464 250 A 16 16 0 0 1 464 274" stroke-opacity="0.8"/>
+    <path d="M473 242 A 27 27 0 0 1 473 282" stroke-opacity="0.5"/>
+    <path d="M422 250 A 16 16 0 0 0 422 274" stroke-opacity="0.8"/>
+    <path d="M413 242 A 27 27 0 0 0 413 282" stroke-opacity="0.5"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="443" y="318" font-size="14" fill="#85858f">발원체가 이야기 세계 밖에 있다</text>
+    <text x="443" y="344" font-size="13" fill="#85858f" fill-opacity="0.8">예: 해설,</text>
+    <text x="443" y="362" font-size="13" fill="#85858f" fill-opacity="0.8">오케스트라 OST</text>
+  </g>
+
+  <!-- ── 가운데: 트랜스-디제틱 — 두 축 사이를 오간다 ── -->
+  <path d="M232 220 C 256 182, 304 182, 324 218" fill="none" stroke="#2f8fef" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <path d="M328 314 C 304 352, 256 352, 236 316" fill="none" stroke="#2f8fef" stroke-width="2.2" stroke-linecap="round" marker-end="url(#arrow)"/>
+  <g text-anchor="middle">
+    <text x="280" y="260" font-size="16" font-weight="700" fill="#2f8fef">트랜스-</text>
+    <text x="280" y="282" font-size="16" font-weight="700" fill="#2f8fef">디제틱</text>
+    <text x="280" y="384" font-size="13" fill="#85858f">두 세계 사이를</text>
+    <text x="280" y="402" font-size="13" fill="#85858f">오가는 소리</text>
+    <text x="280" y="428" font-size="12" fill="#85858f" fill-opacity="0.8">예: 배경음악으로</text>
+    <text x="280" y="445" font-size="12" fill="#85858f" fill-opacity="0.8">시작했지만, 인물이</text>
+    <text x="280" y="462" font-size="12" fill="#85858f" fill-opacity="0.8">라디오를 끄자</text>
+    <text x="280" y="479" font-size="12" fill="#85858f" fill-opacity="0.8">멈춘다</text>
+  </g>
+</svg>
