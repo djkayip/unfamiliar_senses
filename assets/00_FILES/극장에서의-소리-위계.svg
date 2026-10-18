@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="490" viewBox="0 0 560 490" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>극장의 소리 위계</title>
+  <desc>극장의 사운드스케이프는 음성중심주의에 따라 위계적으로 조직된다. 배우의 목소리(대사·억양·음색)가 도형으로 정점에 서고, 사물의 소리, 관객의 소리(웃음·기침), 극장의 소리(공조·음향·무대장치), 극장 밖 소리가 차례로 배경으로 밀려난다. 18–19세기 극장의 침묵하는 관객 관습이 이 위계를 떠받치고, 소음은 원하지 않는 소리로서 듣는 이와 사회의 관계 속에서 규정된다. 극장은 언어·음성 중심의 문화적 듣기가 작동하는 장소다.</desc>
+  <defs>
+    <linearGradient id="sh-axis" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f8fef"/><stop offset="1" stop-color="#85858f" stop-opacity="0.35"/></linearGradient>
+  </defs>
+  <text x="20" y="30" font-size="16" font-weight="700" fill="#2f8fef">극장의 소리 위계</text>
+  <text x="148" y="30" font-size="12" fill="#85858f">음성중심주의에 따라, 위에서 아래로</text>
+
+  <!-- 도형 ↔ 배경 -->
+  <rect x="38" y="66" width="6" height="328" rx="3" fill="url(#sh-axis)"/>
+  <text x="41" y="58" font-size="11" font-weight="700" fill="#2f8fef" text-anchor="middle">도형</text>
+  <text x="41" y="82" font-size="9.5" fill="#85858f" text-anchor="end" transform="translate(-8 0)">figure</text>
+  <text x="41" y="412" font-size="11" font-weight="700" fill="#85858f" text-anchor="middle">배경</text>
+  <text x="41" y="388" font-size="9.5" fill="#85858f" text-anchor="end" transform="translate(-8 0)">ground</text>
+
+  <rect x="86" y="66" width="300" height="56" rx="14" fill="#2f8fef" fill-opacity="0.22" stroke="#2f8fef" stroke-opacity="1.00" stroke-width="1.5"/>
+  <g transform="translate(104.0 82.0) scale(1.000)" fill="none" stroke="#2f8fef" stroke-opacity="1.0" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3.2"/><path d="M3 21v-2.5a6 6 0 0 1 12 0V21"/><path d="M17 6.5a4 4 0 0 1 0 5"/><path d="M19.8 4a7.5 7.5 0 0 1 0 10"/></g>
+  <text x="142" y="90" font-size="16" font-weight="700" fill="#2f8fef" fill-opacity="1.00">배우의 목소리</text>
+  <text x="142" y="109" font-size="12" fill="#85858f" fill-opacity="0.95">대사 · 억양 · 음색</text>
+  <rect x="92" y="134" width="288" height="56" rx="14" fill="#2f8fef" fill-opacity="0.18" stroke="#2f8fef" stroke-opacity="0.84" stroke-width="1.5"/>
+  <g transform="translate(110.0 150.0) scale(1.000)" fill="none" stroke="#2f8fef" stroke-opacity="0.86" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5"/><path d="M12 12v9"/></g>
+  <text x="148" y="158" font-size="15" font-weight="700" fill="#2f8fef" fill-opacity="0.86">사물의 소리</text>
+  <text x="148" y="177" font-size="12" fill="#85858f" fill-opacity="0.86">무대 안 · 무대 밖</text>
+  <rect x="98" y="202" width="276" height="56" rx="14" fill="#2f8fef" fill-opacity="0.14" stroke="#2f8fef" stroke-opacity="0.69" stroke-width="1.5"/>
+  <g transform="translate(116.0 218.0) scale(1.000)" fill="none" stroke="#2f8fef" stroke-opacity="0.72" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="8" r="2.6"/><circle cx="17" cy="8" r="2.6"/><circle cx="12" cy="6" r="2.8"/><path d="M2.5 19v-1.5a4.5 4.5 0 0 1 7-3.7"/><path d="M21.5 19v-1.5a4.5 4.5 0 0 0-7-3.7"/><path d="M7 20v-1.8a5 5 0 0 1 10 0V20"/></g>
+  <text x="154" y="226" font-size="14" font-weight="700" fill="#2f8fef" fill-opacity="0.72">관객의 소리</text>
+  <text x="154" y="245" font-size="12" fill="#85858f" fill-opacity="0.77">웃음 · 기침</text>
+  <rect x="104" y="270" width="264" height="56" rx="14" fill="#2f8fef" fill-opacity="0.09" stroke="#2f8fef" stroke-opacity="0.54" stroke-width="1.5"/>
+  <g transform="translate(122.0 286.0) scale(1.000)" fill="none" stroke="#2f8fef" stroke-opacity="0.59" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></g>
+  <text x="160" y="294" font-size="13" font-weight="700" fill="#2f8fef" fill-opacity="0.59">극장의 소리</text>
+  <text x="160" y="313" font-size="12" fill="#85858f" fill-opacity="0.69">공조 · 음향 · 무대장치</text>
+  <rect x="110" y="338" width="252" height="56" rx="14" fill="#2f8fef" fill-opacity="0.05" stroke="#2f8fef" stroke-opacity="0.38" stroke-width="1.5"/>
+  <g transform="translate(128.0 354.0) scale(1.000)" fill="none" stroke="#2f8fef" stroke-opacity="0.45" stroke-width="1.80" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V10h5v11"/><path d="M10 21V4h7v17"/><path d="M17 21v-8h3v8"/><path d="M12.5 7.5h2M12.5 11h2M12.5 14.5h2M7 13h1.5M7 16.5h1.5"/></g>
+  <text x="166" y="372" font-size="12" font-weight="700" fill="#2f8fef" fill-opacity="0.45">극장 밖 소리</text>
+
+  <!-- 주석 -->
+  <g fill="none" stroke="#e0a35c" stroke-opacity="0.8" stroke-width="1.3">
+    <path d="M378 230.0 L 404 230.0"/>
+  </g>
+  <circle cx="404" cy="230.0" r="3" fill="#e0a35c"/>
+  <g font-size="12" fill="#85858f">
+    <text x="412" y="214" font-weight="700" fill="#e0a35c">침묵하는 관객</text>
+    <text x="412" y="232">18–19세기</text>
+    <text x="412" y="248">극장의 관습이</text>
+    <text x="412" y="264">이 위계를 떠받친다</text>
+  </g>
+  <path d="M394 276 L400 276 L400 388 L394 388" fill="none" stroke="#9a8fe0" stroke-opacity="0.8" stroke-width="1.3"/>
+  <g font-size="12" fill="#85858f">
+    <text x="410" y="292" font-weight="700" fill="#9a8fe0">소음 = 원하지 않는 소리</text>
+    <text x="410" y="310">물리적 특질이 아니라</text>
+    <text x="410" y="326">듣는 이와 사회의</text>
+    <text x="410" y="342">관계가 정한다</text>
+  </g>
+
+  <!-- 정리 -->
+  <rect x="10" y="430" width="540" height="52" rx="14" fill="none" stroke="#85858f" stroke-opacity="0.45" stroke-width="1.2"/>
+  <text x="280" y="452" font-size="13" font-weight="700" fill="#2f8fef" text-anchor="middle">위계적 · 원근법적 '하이파이' 사운드스케이프</text>
+  <text x="280" y="471" font-size="12" fill="#85858f" text-anchor="middle">극장은 언어·음성 중심의 '문화적 듣기'가 작동하는 장소</text>
+</svg>
