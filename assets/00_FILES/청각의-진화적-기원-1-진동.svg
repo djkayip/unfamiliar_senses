@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="290" viewBox="0 0 560 290" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>청각의 진화적 기원: 진동에서 온 감각</title>
+  <desc>물속의 진동 감각에서 옆줄(측선)과 속귀가 같은 조상에서 갈라진 자매 기관으로 나왔고, 데본기 초기 양서류의 귀에서 약 3억 년을 거쳐 인간의 귀가 되었다.</desc>
+  <defs>
+    <marker id="ev-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#85858f"/></marker>
+    <marker id="ev-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2f8fef"/></marker>
+  </defs>
+
+  <!-- ── 위: 진동에서 온 감각 ── -->
+  <text x="20" y="26" font-size="15" font-weight="700" fill="#7dc4dd">진동에서 온 감각</text>
+  <g fill="none" stroke="#85858f" stroke-opacity="0.7" stroke-width="1.6" stroke-linecap="round">
+    <path d="M108 122 C 150 122, 170 76, 214 75" marker-end="url(#ev-a)"/>
+    <path d="M108 138 C 150 138, 170 190, 214 191" marker-end="url(#ev-a)"/>
+    <path d="M282 192 L 414 192" marker-end="url(#ev-a)"/>
+  </g>
+  <circle cx="76" cy="130" r="32" fill="#7dc4dd" fill-opacity="0.1" stroke="#7dc4dd" stroke-opacity="0.8" stroke-width="1.6"/><g transform="translate(61.0 115.0) scale(1.250)" fill="none" stroke="#7dc4dd" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"><path d="M5 8a6 6 0 0 1 0 8"/><path d="M9 5a10 10 0 0 1 0 14"/><path d="M13 2.5a13.5 13.5 0 0 1 0 19"/></g>
+  <text x="76" y="182" font-size="14" font-weight="700" fill="#7dc4dd" text-anchor="middle">물속의 진동 감각</text>
+  <text x="76" y="199" font-size="11.5" fill="#85858f" text-anchor="middle">공통 조상</text>
+
+  <circle cx="250" cy="74" r="30" fill="#7dc4dd" fill-opacity="0.1" stroke="#7dc4dd" stroke-opacity="0.8" stroke-width="1.6"/><g transform="translate(235.0 59.0) scale(1.250)" fill="none" stroke="#7dc4dd" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12c3-5 9-6.5 14-3.5l4-3v13l-4-3c-5 3-11 1.5-14-3.5z"/><circle cx="7" cy="11" r="0.6"/><path d="M6 13.2c3 1.2 7 1.2 10.5-.3" stroke-dasharray="1.2 2"/></g>
+  <text x="292" y="70" font-size="14" font-weight="700" fill="#7dc4dd">옆줄 (측선)</text>
+  <text x="292" y="88" font-size="11.5" fill="#85858f">물고기가 몸으로 물의 떨림을 느낀다</text>
+  <g stroke="#7dc4dd" stroke-opacity="0.6" stroke-width="1.2" stroke-dasharray="3 3">
+    <line x1="250" y1="108" x2="250" y2="120"/>
+    <line x1="250" y1="146" x2="250" y2="158"/>
+  </g>
+  <text x="250" y="138" font-size="12" font-weight="700" fill="#7dc4dd" text-anchor="middle">자매 기관</text>
+
+  <circle cx="250" cy="192" r="30" fill="#7dc4dd" fill-opacity="0.1" stroke="#7dc4dd" stroke-opacity="0.8" stroke-width="1.6"/><g transform="translate(235.0 177.0) scale(1.250)" fill="none" stroke="#7dc4dd" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"><path d="M6 10a7 7 0 1 1 13 3.6a10 10 0 0 1-2 2a8 8 0 0 0-2 3a4.5 4.5 0 0 1-6.8 1.4"/><path d="M10 10a3 3 0 1 1 5 2.2"/></g>
+  <text x="250" y="240" font-size="14" font-weight="700" fill="#7dc4dd" text-anchor="middle">속귀</text>
+  <text x="250" y="257" font-size="11.5" fill="#85858f" text-anchor="middle">데본기 초기 양서류</text>
+  <text x="250" y="272" font-size="11.5" fill="#85858f" text-anchor="middle">약 4억 2천만~3억 6천만 년 전</text>
+
+  <text x="348" y="184" font-size="11.5" fill="#85858f" text-anchor="middle">약 3억 년</text>
+  <circle cx="452" cy="192" r="30" fill="#2f8fef" fill-opacity="0.1" stroke="#2f8fef" stroke-opacity="0.8" stroke-width="1.6"/><g transform="translate(437.0 177.0) scale(1.250)" fill="none" stroke="#2f8fef" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"><path d="M6 10a7 7 0 1 1 13 3.6a10 10 0 0 1-2 2a8 8 0 0 0-2 3a4.5 4.5 0 0 1-6.8 1.4"/><path d="M10 10a3 3 0 1 1 5 2.2"/></g>
+  <text x="452" y="240" font-size="14" font-weight="700" fill="#2f8fef" text-anchor="middle">인간의 귀</text>
+  <text x="452" y="257" font-size="11.5" fill="#85858f" text-anchor="middle">포식자의 경보에서</text>
+  <text x="452" y="272" font-size="11.5" fill="#85858f" text-anchor="middle">음악을 듣는 귀까지</text>
+
+</svg>

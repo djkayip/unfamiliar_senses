@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="240" viewBox="0 0 560 240" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>청각의 진화적 기원: 끌 수 없는 전방향 감각</title>
+  <desc>시각은 정면을 향하고 눈을 감을 수 있지만, 청각은 360°로 등 뒤까지 들으며 끌 수 없다.</desc>
+  <g transform="translate(0 -286)">
+  <!-- ── 가운데: 끌 수 없는 전방향 감각 ── -->
+  <rect x="10" y="296" width="264" height="220" rx="20" fill="#9a8fe0" fill-opacity="0.06" stroke="#9a8fe0" stroke-opacity="0.65" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <text x="28" y="324" font-size="17" font-weight="700" fill="#9a8fe0">시각</text>
+  <text x="70" y="324" font-size="12" fill="#85858f">정면으로, 시선이 닿는 곳만</text>
+  <path d="M142 404 L82.6 366.9 A70 70 0 0 1 201.4 366.9 Z" fill="#9a8fe0" fill-opacity="0.16" stroke="#9a8fe0" stroke-opacity="0.7" stroke-width="1.4"/>
+  <circle cx="142" cy="404" r="17" fill="#9a8fe0" fill-opacity="0.25" stroke="#9a8fe0" stroke-width="1.8"/><path d="M137 388.5 L142 381 L147 388.5" fill="none" stroke="#9a8fe0" stroke-width="1.8" stroke-linejoin="round"/><circle cx="136" cy="396" r="1.8" fill="#9a8fe0"/><circle cx="148" cy="396" r="1.8" fill="#9a8fe0"/>
+  <g transform="translate(142 450)"><path d="M0 -11 L11 8 L-11 8 Z" fill="none" stroke="#85858f" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="3 3"/><text x="0" y="5" font-size="11" font-weight="700" fill="#85858f" text-anchor="middle">!</text></g>
+  <text x="162" y="458" font-size="11" fill="#85858f">등 뒤는 보이지 않는다</text>
+  <text x="28" y="502" font-size="13" font-weight="700" fill="#9a8fe0">눈은 감을 수 있다</text>
+
+  <rect x="286" y="296" width="264" height="220" rx="20" fill="#7dc4dd" fill-opacity="0.06" stroke="#7dc4dd" stroke-opacity="0.65" stroke-width="1.5" stroke-dasharray="7 6"/>
+  <text x="304" y="324" font-size="17" font-weight="700" fill="#7dc4dd">청각</text>
+  <text x="346" y="324" font-size="12" fill="#85858f">사방으로, 등 뒤까지 · 360°</text>
+  <g fill="none" stroke="#7dc4dd" stroke-width="1.4">
+    <circle cx="418" cy="404" r="34" stroke-opacity="0.7"/>
+    <circle cx="418" cy="404" r="54" stroke-opacity="0.45"/>
+    <circle cx="418" cy="404" r="72" stroke-opacity="0.25"/>
+  </g>
+  <circle cx="418" cy="404" r="17" fill="#7dc4dd" fill-opacity="0.25" stroke="#7dc4dd" stroke-width="1.8"/><path d="M413 388.5 L418 381 L423 388.5" fill="none" stroke="#7dc4dd" stroke-width="1.8" stroke-linejoin="round"/><path d="M401 398 a6 6 0 0 0 0 12" fill="none" stroke="#7dc4dd" stroke-width="1.8"/><path d="M435 398 a6 6 0 0 1 0 12" fill="none" stroke="#7dc4dd" stroke-width="1.8"/>
+  <g transform="translate(418 450)"><path d="M0 -11 L11 8 L-11 8 Z" fill="none" stroke="#e0a35c" stroke-width="1.6" stroke-linejoin="round"/><text x="0" y="5" font-size="11" font-weight="700" fill="#e0a35c" text-anchor="middle">!</text></g>
+  <text x="438" y="458" font-size="11" fill="#e0a35c">먼저 알아챈다</text>
+  <text x="304" y="502" font-size="13" font-weight="700" fill="#7dc4dd">귀에는 눈꺼풀이 없다</text>
+
+  </g>
+</svg>
