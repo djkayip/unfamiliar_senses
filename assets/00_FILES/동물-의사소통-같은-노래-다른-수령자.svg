@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="400" viewBox="0 0 560 400" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>같은 노래, 다른 수령자: 신호와 큐</title>
+  <desc>수컷 귀뚜라미의 노래 하나가 세 수령자에게 닿는다. 의도한 수령자인 암컷에게는 신호로, 노래를 듣고 수컷을 찾아온다(참 의사소통). 원치 않은 수령자인 얌체 수컷에게는 큐로, 노래에 이끌려 온 암컷을 가로챈다. 기생파리에게도 큐로, 노래를 듣고 날아와 수컷에게 기생한다(도청·착취).</desc>
+  <defs>
+    <marker id="sr-p" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#9a8fe0"/></marker>
+    <marker id="sr-o" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#e0a35c"/></marker>
+  </defs>
+
+  <text x="20" y="30" font-size="13" fill="#85858f">의도한 수령자에게 가면 신호, 원치 않은 수령자가 캐내면 큐</text>
+
+  <!-- 발송자 -->
+  <rect x="20" y="166" width="150" height="76" rx="12" fill="#85858f" fill-opacity="0.08" stroke="#85858f" stroke-opacity="0.55" stroke-width="1.4"/>
+  <text x="95" y="198" font-size="15.5" font-weight="700" fill="#85858f" text-anchor="middle">수컷 귀뚜라미의</text>
+  <text x="95" y="218" font-size="15.5" font-weight="700" fill="#85858f" text-anchor="middle">노래</text>
+  <text x="95" y="262" font-size="11.5" fill="#85858f" text-anchor="middle">발송자</text>
+
+  <!-- 갈래 -->
+  <path d="M170 204 H214 V96 H300" fill="none" stroke="#9a8fe0" stroke-width="1.8" marker-end="url(#sr-p)"/>
+  <path d="M214 204 H300" fill="none" stroke="#e0a35c" stroke-width="1.8" marker-end="url(#sr-o)"/>
+  <path d="M214 204 V312 H300" fill="none" stroke="#e0a35c" stroke-width="1.8" marker-end="url(#sr-o)"/>
+  <text x="257" y="88" font-size="12.5" font-weight="700" fill="#9a8fe0" text-anchor="middle">신호</text>
+  <text x="257" y="196" font-size="12.5" font-weight="700" fill="#e0a35c" text-anchor="middle">큐</text>
+  <text x="257" y="304" font-size="12.5" font-weight="700" fill="#e0a35c" text-anchor="middle">큐</text>
+
+  <!-- 수령자 -->
+  <rect x="306" y="58" width="234" height="76" rx="12" fill="#9a8fe0" fill-opacity="0.2" stroke="#9a8fe0" stroke-width="2"/>
+  <text x="322" y="88" font-size="16" font-weight="700" fill="#9a8fe0">암컷</text>
+  <text x="322" y="110" font-size="12" fill="#85858f">노래를 듣고 수컷을 찾아온다</text>
+
+  <rect x="306" y="166" width="234" height="76" rx="12" fill="#e0a35c" fill-opacity="0.08" stroke="#e0a35c" stroke-opacity="0.85" stroke-width="1.5"/>
+  <text x="322" y="196" font-size="16" font-weight="700" fill="#e0a35c">얌체 수컷</text>
+  <text x="322" y="218" font-size="12" fill="#85858f">노래에 이끌려 온 암컷을 가로챈다</text>
+
+  <rect x="306" y="274" width="234" height="76" rx="12" fill="#e0a35c" fill-opacity="0.08" stroke="#e0a35c" stroke-opacity="0.85" stroke-width="1.5"/>
+  <text x="322" y="304" font-size="16" font-weight="700" fill="#e0a35c">기생파리</text>
+  <text x="322" y="326" font-size="12" fill="#85858f">노래를 듣고 날아와 수컷에게 기생한다</text>
+
+  <!-- 행렬과의 연결 -->
+  <text x="540" y="152" font-size="11" fill="#9a8fe0" text-anchor="end">암컷 → 참 의사소통 (발송자 + · 수령자 +)</text>
+  <text x="540" y="372" font-size="11" fill="#e0a35c" text-anchor="end">얌체 수컷 · 기생파리 → 도청 · 착취 (발송자 − · 수령자 +)</text>
+</svg>
