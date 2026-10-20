@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="262" viewBox="0 0 560 262" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>행위소와 행위자: 형상화의 정도</title>
+  <desc>행위소가 이름과 역할과 목소리를 얻는 정도에 따라 행위자 쪽으로 옮겨 간다. 이름도 역할도 없이 공간에 차이를 만드는 극장의 기계음과 환풍기 소리(파빌리온 72 프로토콜)는 행위소에 가깝고, 이름은 있으나 사람의 모습과 말이 없는 소리 사물 '메탈릭 썬더'(스와이프!)는 그 중간, 이름과 목소리를 모두 얻은 밥솥 하나·두리·세리(쿠쿠)는 행위자에 가깝다.</desc>
+  <defs>
+    <linearGradient id="fg-grad" gradientUnits="userSpaceOnUse" x1="20" y1="54" x2="532" y2="54">
+      <stop offset="0" stop-color="#7dc4dd"/>
+      <stop offset="1" stop-color="#9a8fe0"/>
+    </linearGradient>
+    <marker id="fg-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#9a8fe0"/></marker>
+  </defs>
+
+  <!-- ── 위: 형상화의 축 ── -->
+  <text x="20" y="34" font-size="16" font-weight="700" fill="#7dc4dd">행위소</text>
+  <text x="74" y="34" font-size="11.5" fill="#85858f">actant</text>
+  <text x="540" y="34" font-size="16" font-weight="700" fill="#9a8fe0" text-anchor="end">행위자</text>
+  <text x="486" y="34" font-size="11.5" fill="#85858f" text-anchor="end">actor</text>
+
+  <line x1="20" y1="54" x2="532" y2="54" stroke="url(#fg-grad)" stroke-width="3" marker-end="url(#fg-arrow)"/>
+  <text x="280" y="78" font-size="12.5" fill="#85858f" text-anchor="middle">형상화 — 이름 · 역할 · 목소리를 얻을수록</text>
+
+  <!-- 세 단계 -->
+  <rect x="20" y="96" width="164" height="150" rx="12" fill="#7dc4dd" fill-opacity="0.1" stroke="#7dc4dd" stroke-opacity="0.85" stroke-width="1.5"/>
+  <text x="34" y="122" font-size="12" font-weight="700" fill="#7dc4dd">이름도 역할도 없음</text>
+  <text x="34" y="150" font-size="14.5" font-weight="700" fill="#85858f">극장의 기계음,</text>
+  <text x="34" y="170" font-size="14.5" font-weight="700" fill="#85858f">환풍기 소리</text>
+  <text x="34" y="196" font-size="11" fill="#85858f">공간에 차이를 만드는</text>
+  <text x="34" y="211" font-size="11" fill="#85858f">동등한 사건</text>
+  <text x="34" y="234" font-size="11" fill="#7dc4dd">〈파빌리온 72 프로토콜〉</text>
+
+  <rect x="198" y="96" width="164" height="150" rx="12" fill="#9a8fe0" fill-opacity="0.08" stroke="#9a8fe0" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="212" y="122" font-size="12" font-weight="700" fill="#9a8fe0" fill-opacity="0.8">이름은 있으나 말은 없음</text>
+  <text x="212" y="150" font-size="14.5" font-weight="700" fill="#85858f">소리 사물</text>
+  <text x="212" y="170" font-size="14.5" font-weight="700" fill="#85858f">'메탈릭 썬더'</text>
+  <text x="212" y="196" font-size="11" fill="#85858f">쓸모에서 풀려난 부품,</text>
+  <text x="212" y="211" font-size="11" fill="#85858f">사람의 모습은 없다</text>
+  <text x="212" y="234" font-size="11" fill="#9a8fe0">〈스와이프!〉</text>
+
+  <rect x="376" y="96" width="164" height="150" rx="12" fill="#9a8fe0" fill-opacity="0.2" stroke="#9a8fe0" stroke-width="2"/>
+  <text x="390" y="122" font-size="12" font-weight="700" fill="#9a8fe0">이름과 목소리</text>
+  <text x="390" y="150" font-size="14.5" font-weight="700" fill="#85858f">밥솥 하나 ·</text>
+  <text x="390" y="170" font-size="14.5" font-weight="700" fill="#85858f">두리 · 세리</text>
+  <text x="390" y="196" font-size="11" fill="#85858f">출연진 명단에 오르고</text>
+  <text x="390" y="211" font-size="11" fill="#85858f">말하고 노래한다</text>
+  <text x="390" y="234" font-size="11" fill="#9a8fe0">〈쿠쿠〉</text>
+
+</svg>

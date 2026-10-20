@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="234" viewBox="0 0 560 234" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>행위소와 행위자: 포함 관계</title>
+  <desc>행위소는 차이를 만들고 효력을 발휘하는 모든 것으로, 형상 이전의 층위다. 행위자는 그 가운데 형상화(figuration)를 거쳐 형상을 얻은 행위소다. 그래서 모든 행위자는 행위소이지만, 모든 행위소가 행위자는 아니다.</desc>
+
+  <rect x="20" y="10" width="520" height="176" rx="88" fill="#7dc4dd" fill-opacity="0.08" stroke="#7dc4dd" stroke-opacity="0.85" stroke-width="1.6"/>
+  <text x="60" y="60" font-size="17" font-weight="700" fill="#7dc4dd">행위소</text>
+  <text x="60" y="84" font-size="12" fill="#85858f">차이를 만들고</text>
+  <text x="60" y="101" font-size="12" fill="#85858f">효력을 발휘하는 모든 것</text>
+  <text x="60" y="124" font-size="12" fill="#85858f">형상 이전의 층위</text>
+
+  <rect x="290" y="34" width="226" height="128" rx="64" fill="#9a8fe0" fill-opacity="0.2" stroke="#9a8fe0" stroke-width="2"/>
+  <text x="403" y="80" font-size="17" font-weight="700" fill="#9a8fe0" text-anchor="middle">행위자</text>
+  <text x="403" y="104" font-size="12" fill="#85858f" text-anchor="middle">형상을 얻은 행위소</text>
+  <text x="403" y="123" font-size="11" fill="#85858f" text-anchor="middle">actant + figuration</text>
+
+  <text x="280" y="214" font-size="12" fill="#85858f" text-anchor="middle">모든 행위자는 행위소이지만, 모든 행위소가 행위자는 아니다</text>
+</svg>
