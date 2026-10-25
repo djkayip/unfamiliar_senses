@@ -9,12 +9,18 @@
          viewport-fit=cover lets us pad against the safe-area insets. -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
     <title>다가올 낯선 감각들</title>
+    <!-- The headings' face (IBM Plex Sans KR; app.css --font-heading). Google
+         Fonts slices the Korean by unicode range, so only the glyphs on screen
+         are fetched. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600;700&display=swap" />
     
-		<link rel="modulepreload" href="./_app/immutable/entry/start.CTa6nT6N.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.BZ8j_QMU.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CUU_0wcs.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.ox_771GE.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BIKMoFl-.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/environment.qmZp4DTF.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.gqDZ6OBJ.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/environment.D25UG273.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.Dg0XoycY.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/preload-helper.C1FmrZbK.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.CJ45bEBt.js">
       <meta property="og:type" content="website" />
@@ -30,15 +36,15 @@
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_1wh7pp4 = {
+					__sveltekit_qtu8lv = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.CTa6nT6N.js"),
-						import("./_app/immutable/entry/app.gqDZ6OBJ.js")
+						import("./_app/immutable/entry/start.CUU_0wcs.js"),
+						import("./_app/immutable/entry/app.Dg0XoycY.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
