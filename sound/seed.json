@@ -12,12 +12,14 @@
     "spread": "n_0_30",
     "motion": "n_0_33",
     "palette": "n_0_36",
-    "palette2": "n_0_39",
-    "dwellms": "n_0_42",
-    "revwet": "n_0_45",
-    "revtime": "n_0_48",
-    "revdamp": "n_0_51",
-    "revpre": "n_0_54",
-    "deg": "n_0_56"
+    "palette3": "n_0_39",
+    "palette2": "n_0_42",
+    "dwellms": "n_0_45",
+    "sustain": "n_0_48",
+    "revwet": "n_0_51",
+    "revtime": "n_0_54",
+    "revdamp": "n_0_57",
+    "revpre": "n_0_60",
+    "deg": "n_0_62"
   }
 }
