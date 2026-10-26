@@ -14,12 +14,13 @@
     "palette": "n_0_36",
     "palette3": "n_0_39",
     "palette2": "n_0_42",
-    "dwellms": "n_0_45",
-    "sustain": "n_0_48",
-    "revwet": "n_0_51",
-    "revtime": "n_0_54",
-    "revdamp": "n_0_57",
-    "revpre": "n_0_60",
-    "deg": "n_0_62"
+    "palette4": "n_0_45",
+    "dwellms": "n_0_48",
+    "sustain": "n_0_51",
+    "revwet": "n_0_54",
+    "revtime": "n_0_57",
+    "revdamp": "n_0_60",
+    "revpre": "n_0_63",
+    "deg": "n_0_65"
   }
 }
