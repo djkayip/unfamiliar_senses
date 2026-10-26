@@ -11,6 +11,12 @@
     "voices": "n_0_27",
     "spread": "n_0_30",
     "motion": "n_0_33",
-    "deg": "n_0_35"
+    "palette": "n_0_36",
+    "dwellms": "n_0_39",
+    "revwet": "n_0_42",
+    "revtime": "n_0_45",
+    "revdamp": "n_0_48",
+    "revpre": "n_0_51",
+    "deg": "n_0_53"
   }
 }
