@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="316" viewBox="0 0 560 316" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>샘플링: 떼어 내고, 반복·변형·재배치하기</title>
+  <desc>기존 녹음(음원·환경음·말소리)에서 한 구간을 떼어 내면, 원인과 맥락에서 분리된 조각이 된다. 그 조각을 반복·변형·재배치해 새 구조를 만들고, 조각은 루프로 되돌아오며 시간을 조직한다. 이 작법은 테이프를 잘라 붙이던 구체 음악에서 디지털 샘플러·DAW를 거쳐 힙합·EDM의 비트 메이킹으로 이어졌다.</desc>
+  <defs>
+    <marker id="sp-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#9a8fe0"/>
+    </marker>
+    <marker id="sp-arrow-sky" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#7dc4dd"/>
+    </marker>
+  </defs>
+
+  <!-- ── 위: 기존 녹음 → 떼어 낸 조각 → 새 구조 ── -->
+  <g fill="#9a8fe0" fill-opacity="0.07" stroke="#9a8fe0" stroke-opacity="0.7" stroke-width="1.5">
+    <rect x="10.75" y="10.75" width="138.5" height="122.5" rx="12"/>
+    <rect x="210.75" y="10.75" width="138.5" height="122.5" rx="12"/>
+    <rect x="410.75" y="10.75" width="138.5" height="122.5" rx="12"/>
+  </g>
+  <g fill="none" stroke="#9a8fe0" stroke-width="2.2" stroke-linecap="round" marker-end="url(#sp-arrow)">
+    <path d="M150 72 L204 72"/>
+    <path d="M350 72 L404 72"/>
+  </g>
+  <text x="180" y="56" font-size="13" fill="#9a8fe0" text-anchor="middle">떼어 냄</text>
+
+  <!-- 기존 녹음: 긴 파형과 떼어 낼 구간 -->
+  <g transform="translate(32 34)" fill="none" stroke-linecap="round">
+    <path stroke="#9a8fe0" stroke-width="2" d="M2 10 L2 16 M6 8 L6 18 M10 5 L10 21 M14 9 L14 17 M18 3 L18 23 M22 1 L22 25 M26 6 L26 20 M30 8 L30 18 M34 4 L34 22 M38 7 L38 19 M42 10 L42 16 M46 6 L46 20 M50 2 L50 24 M54 5 L54 21 M58 9 L58 17 M62 7 L62 19 M66 3 L66 23 M70 8 L70 18 M74 10 L74 16 M78 5 L78 21 M82 7 L82 19 M86 9 L86 17 M90 6 L90 20 M94 10 L94 16"/>
+    <rect x="30.5" y="-1" width="27" height="28" rx="3" stroke="#e0a35c" stroke-width="1.5" stroke-dasharray="3 2"/>
+  </g>
+  <!-- 떼어 낸 조각 -->
+  <g transform="translate(256 33)" fill="none" stroke-linecap="round">
+    <path stroke="#e0a35c" stroke-width="1.5" stroke-dasharray="3 2" d="M0 -1 L0 29 M47 -1 L47 29"/>
+    <path stroke="#9a8fe0" stroke-width="2.4" d="M6 4.1 L6 23.9 M13 7.4 L13 20.6 M20 10.7 L20 17.3 M27 6.3 L27 21.7 M34 1.9 L34 26.1 M41 5.2 L41 22.8"/>
+  </g>
+  <!-- 새 구조: 클립의 반복·재배치·변형 -->
+  <g transform="translate(431 32)" stroke-linecap="round">
+    <g fill="#9a8fe0" fill-opacity="0.18" stroke="#9a8fe0" stroke-width="1.2">
+      <rect x="0.5" y="2" width="27" height="11" rx="3"/>
+      <rect x="31.5" y="2" width="27" height="11" rx="3"/>
+      <rect x="46.5" y="17" width="27" height="11" rx="3"/>
+      <rect x="77.5" y="17" width="20" height="11" rx="3"/>
+    </g>
+    <path fill="none" stroke="#9a8fe0" stroke-width="1.6" d="M5 5.5 L5 9.5 M9 4 L9 11 M13 6 L13 9 M17 3.5 L17 11.5 M21 5 L21 10 M36 5.5 L36 9.5 M40 4 L40 11 M44 6 L44 9 M48 3.5 L48 11.5 M52 5 L52 10 M51 20.5 L51 24.5 M55 19 L55 26 M59 21 L59 24 M63 18.5 L63 26.5 M67 20 L67 25 M82 21 L82 24 M86 19 L86 26 M90 20.5 L90 24.5"/>
+  </g>
+
+  <g text-anchor="middle">
+    <text x="80" y="86" font-size="17" font-weight="700" fill="#9a8fe0">기존 녹음</text>
+    <text x="80" y="104.5" font-size="13" fill="#85858f">음원 · 환경음 · 말소리</text>
+    <text x="280" y="87" font-size="17" font-weight="700" fill="#9a8fe0">떼어 낸 조각</text>
+    <text x="280" y="105.5" font-size="13" fill="#85858f">원인·맥락에서 분리</text>
+    <text x="480" y="88" font-size="17" font-weight="700" fill="#9a8fe0">새 구조</text>
+    <text x="480" y="106.5" font-size="13" fill="#85858f">반복 · 변형 · 재배치</text>
+  </g>
+  <text x="550" y="155.5" font-size="13" fill="#85858f" text-anchor="end">루프로 되돌아오며 시간을 조직</text>
+
+  <!-- ── 아래: 계보 ── -->
+  <text x="10" y="188" font-size="13" font-weight="700" fill="#7dc4dd">계보</text>
+  <g fill="#7dc4dd" fill-opacity="0.07" stroke="#7dc4dd" stroke-opacity="0.7" stroke-width="1.5">
+    <rect x="10.75" y="200.75" width="158.5" height="110.5" rx="12"/>
+    <rect x="210.75" y="200.75" width="138.5" height="110.5" rx="12"/>
+    <rect x="390.75" y="200.75" width="158.5" height="110.5" rx="12"/>
+  </g>
+  <g fill="none" stroke="#7dc4dd" stroke-width="2.2" stroke-linecap="round" marker-end="url(#sp-arrow-sky)">
+    <path d="M170 260 L204 260"/>
+    <path d="M350 260 L384 260"/>
+  </g>
+  <!-- 테이프 릴 -->
+  <g transform="translate(60 219)" fill="none" stroke="#7dc4dd" stroke-width="1.8" stroke-linecap="round">
+    <circle cx="14" cy="11" r="9"/><circle cx="14" cy="11" r="2.5"/>
+    <circle cx="46" cy="11" r="9"/><circle cx="46" cy="11" r="2.5"/>
+    <path d="M14 20 L46 20"/>
+    <path d="M30 16 L30 25" stroke="#e0a35c" stroke-dasharray="2 2"/>
+  </g>
+  <!-- 샘플러 패드 -->
+  <g transform="translate(263 220)" fill="none" stroke="#7dc4dd" stroke-width="1.6">
+    <rect x="1" y="1" width="9" height="9" rx="2"/>
+    <rect x="12.5" y="1" width="9" height="9" rx="2" fill="#7dc4dd" fill-opacity="0.5"/>
+    <rect x="24" y="1" width="9" height="9" rx="2"/>
+    <rect x="1" y="13" width="9" height="9" rx="2"/>
+    <rect x="12.5" y="13" width="9" height="9" rx="2"/>
+    <rect x="24" y="13" width="9" height="9" rx="2" fill="#7dc4dd" fill-opacity="0.5"/>
+  </g>
+  <!-- 스텝 시퀀서 -->
+  <g transform="translate(431 227)" fill="none" stroke="#7dc4dd" stroke-width="1.5">
+    <rect x="0.5" y="0.5" width="8" height="9" rx="1.5" fill="#7dc4dd"/>
+    <rect x="10.5" y="0.5" width="8" height="9" rx="1.5"/>
+    <rect x="20.5" y="0.5" width="8" height="9" rx="1.5"/>
+    <rect x="30.5" y="0.5" width="8" height="9" rx="1.5" fill="#7dc4dd"/>
+    <rect x="40.5" y="0.5" width="8" height="9" rx="1.5"/>
+    <rect x="50.5" y="0.5" width="8" height="9" rx="1.5" fill="#7dc4dd"/>
+    <rect x="60.5" y="0.5" width="8" height="9" rx="1.5"/>
+    <rect x="69.5" y="0.5" width="8" height="9" rx="1.5"/>
+  </g>
+  <g text-anchor="middle">
+    <text x="90" y="268" font-size="15" font-weight="700" fill="#7dc4dd">구체 음악</text>
+    <text x="90" y="287.5" font-size="13" fill="#85858f">테이프를 잘라 붙임</text>
+    <text x="280" y="267" font-size="15" font-weight="700" fill="#7dc4dd">디지털 샘플러</text>
+    <text x="280" y="286.5" font-size="13" fill="#85858f">DAW</text>
+    <text x="470" y="260" font-size="15" font-weight="700" fill="#7dc4dd">힙합 · EDM</text>
+    <text x="470" y="279.5" font-size="13" fill="#85858f">비트 메이킹</text>
+  </g>
+</svg>

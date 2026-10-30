@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="248" viewBox="0 0 560 248" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>가청 주파수: 귀로 지각하는 범위와 그 바깥</title>
+  <desc>진동수를 로그 눈금으로 놓으면, 20Hz 아래의 초저주파는 귀가 아니라 몸이 떨림·압력으로 감지하고, 20Hz–20kHz의 가청 범위(청년기 청력 기준)는 귀로 지각하며, 20kHz 위의 초음파는 인간에게 들리지 않고 박쥐·개·돌고래 같은 일부 동물이 지각한다. 두 경계는 고정된 선이 아니라 문턱이며, 노화와 함께 높은 소리부터 들리지 않게 되어 가청 영역이 줄어든다.</desc>
+  <defs>
+    <marker id="af-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#e0a35c"/>
+    </marker>
+  </defs>
+
+  <!-- 세 띠 -->
+  <path d="M52 30 H165 V106 H52 A12 12 0 0 1 40 94 V42 A12 12 0 0 1 52 30 Z" fill="#7dc4dd" fill-opacity="0.12"/>
+  <rect x="165" y="30" width="288" height="76" fill="#9a8fe0" fill-opacity="0.18"/>
+  <path d="M453 30 H508 A12 12 0 0 1 520 42 V94 A12 12 0 0 1 508 106 H453 Z" fill="#e0a35c" fill-opacity="0.14"/>
+
+  <!-- 문턱 -->
+  <path d="M165 22 L165 114 M453 22 L453 114" fill="none" stroke="#85858f" stroke-width="1.2" stroke-dasharray="3 4"/>
+
+  <!-- 진동수 축 -->
+  <path d="M40 114 L520 114 M40 111 L40 117 M136 111 L136 117 M232 111 L232 117 M328 111 L328 117 M424 111 L424 117 M520 111 L520 117" fill="none" stroke="#85858f" stroke-opacity="0.7" stroke-width="1.2"/>
+
+  <g text-anchor="middle">
+    <text x="165" y="14" font-size="13" font-weight="700" fill="#85858f">20Hz</text>
+    <text x="453" y="14" font-size="13" font-weight="700" fill="#85858f">20kHz</text>
+    <text x="102.5" y="64.5" font-size="16" font-weight="700" fill="#7dc4dd">초저주파</text>
+    <text x="102.5" y="81" font-size="12" fill="#85858f">20Hz 아래</text>
+    <text x="309" y="64" font-size="18" font-weight="700" fill="#9a8fe0">가청 범위</text>
+    <text x="309" y="82.5" font-size="13" fill="#85858f">청년기 청력 기준</text>
+    <text x="486.5" y="64.5" font-size="16" font-weight="700" fill="#e0a35c">초음파</text>
+    <text x="486.5" y="81" font-size="12" fill="#85858f">20kHz 위</text>
+  </g>
+  <g font-size="12" fill="#85858f" text-anchor="middle">
+    <text x="40" y="131.5">1Hz</text>
+    <text x="136" y="131.5">10Hz</text>
+    <text x="232" y="131.5">100Hz</text>
+    <text x="328" y="131.5">1kHz</text>
+    <text x="424" y="131.5">10kHz</text>
+    <text x="520" y="131.5">100kHz</text>
+  </g>
+
+  <!-- 무엇으로 지각하는가 -->
+  <g font-size="13" font-weight="700">
+    <text x="10" y="159" fill="#7dc4dd">몸으로 감지</text>
+    <text x="309" y="159" fill="#9a8fe0" text-anchor="middle">귀로 지각</text>
+    <text x="550" y="159" fill="#e0a35c" text-anchor="end">일부 동물이 지각</text>
+  </g>
+
+  <!-- 박쥐 · 개 · 돌고래 -->
+  <g transform="translate(466 166)" fill="none" stroke="#e0a35c" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 8 C10 5 7 4 1 6 C3 8 3 11 3 13 C5 11 7 12 8 14 C9 12 11 12 12 14 C13 12 15 12 16 14 C17 12 19 11 21 13 C21 11 21 8 23 6 C17 4 14 5 12 8 Z" fill="#e0a35c" fill-opacity="0.18"/>
+    <path d="M10.5 6.5 L10 3.5 L12 5.5 L14 3.5 L13.5 6.5"/>
+    <circle cx="39" cy="11" r="6.5" fill="#e0a35c" fill-opacity="0.18"/>
+    <path d="M33.2 7.5 C30.5 8 30.5 13 32 15 C33.5 14 33.5 11 33 9.5 M44.8 7.5 C47.5 8 47.5 13 46 15 C44.5 14 44.5 11 45 9.5"/>
+    <path d="M55 13 C58 7 67 5 73 9 L77 7 L75 11 C76 13 75 14 73 13 C69 15 61 16 57 14 L54 16 Z" fill="#e0a35c" fill-opacity="0.18"/>
+    <path d="M64 7 L66 3 L68 7.5"/>
+    <g fill="#e0a35c" stroke="none">
+      <circle cx="11" cy="8" r="0.6"/><circle cx="13" cy="8" r="0.6"/>
+      <circle cx="36.8" cy="10" r="0.7"/><circle cx="41.2" cy="10" r="0.7"/>
+      <ellipse cx="39" cy="13" rx="1.4" ry="1"/>
+      <circle cx="71" cy="10" r="0.7"/>
+    </g>
+  </g>
+
+  <!-- 노화와 함께 줄어드는 가청 영역 -->
+  <path d="M453 206 L409 206" fill="none" stroke="#e0a35c" stroke-width="2" stroke-linecap="round" marker-end="url(#af-arrow)"/>
+  <path d="M165 222 L400 222" fill="none" stroke="#9a8fe0" stroke-opacity="0.6" stroke-width="6" stroke-linecap="round"/>
+  <path d="M406 222 L453 222" fill="none" stroke="#e0a35c" stroke-width="2" stroke-dasharray="3 4" stroke-linecap="round"/>
+  <g font-size="11" text-anchor="end">
+    <text x="154" y="217" fill="#85858f">노화와 함께</text>
+    <text x="154" y="233" fill="#e0a35c" font-weight="700">줄어드는 가청 영역</text>
+  </g>
+</svg>
