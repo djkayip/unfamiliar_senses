@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="256" viewBox="0 0 560 256" font-family="Pretendard, -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Segoe UI', sans-serif">
+  <title>어쿠스마틱: 장막 뒤의 몸, 소리만 듣는 이</title>
+  <desc>소리를 내는 몸은 장막 뒤에 가려 보이지 않고, 장막 너머로는 소리만 건너와 듣는 이에게 닿는다. 원천이 비운 자리를 듣는 이는 '무엇일까?' 하는 상상으로 채운다. 녹음과 스피커는 몸에 붙어 있던 소리를 몸에서 떼어 내 어디서든 울리게 했고, 그로써 어쿠스마틱은 청취의 기본값이 되었다. 상상 풍선 속의 새·사람·종은 떠올릴 수 있는 원천의 임의의 예다.</desc>
+
+  <g transform="translate(60 0)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 장막 뒤의 몸 -->
+    <g transform="translate(40 0)">
+      <circle cx="84" cy="64" r="12" fill="#9a8fe0" fill-opacity="0.35"/>
+      <path d="M62 142 C62 106 70 84 84 84 C98 84 106 106 106 142 Z" fill="#9a8fe0" fill-opacity="0.35"/>
+      <path d="M56 42 L56 146 L112 146 L112 42 Z" fill="#7dc4dd" fill-opacity="0.42"/>
+      <path d="M63 44 C67 64 59 76 63 96 C67 116 59 128 63 146 M74 44 C78 64 70 76 74 96 C78 116 70 128 74 146 M85 44 C89 64 81 76 85 96 C89 116 81 128 85 146 M96 44 C100 64 92 76 96 96 C100 116 92 128 96 146 M107 44 C111 64 103 76 107 96 C111 116 103 128 107 146" stroke="#7dc4dd" stroke-width="1.4"/>
+      <path d="M50 40 L118 40" stroke="#7dc4dd" stroke-width="2.6"/>
+      <path d="M131.7 78.2 A24 24 0 0 1 131.7 105.8 M144.8 69 A40 40 0 0 1 144.8 115 M157.9 59.9 A56 56 0 0 1 157.9 124.1" stroke="#9a8fe0" stroke-width="2.2"/>
+    </g>
+    <!-- 듣는 이 -->
+    <g transform="translate(250 70) scale(1.8)" stroke="#9a8fe0" stroke-width="1.15">
+      <path d="M6 8.5a6.5 6.5 0 1 1 13 0c0 6-6 6-6 10a3.5 3.5 0 1 1-7 0"/>
+      <path d="M15 8.5a2.5 2.5 0 0 0-5 0v1a2 2 0 1 1 0 4"/>
+    </g>
+    <!-- 상상 -->
+    <g stroke="#e0a35c" stroke-width="1.5">
+      <circle cx="304" cy="64" r="3"/>
+      <circle cx="316" cy="52" r="5"/>
+      <circle cx="374" cy="42" r="36" fill="#e0a35c" fill-opacity="0.07" stroke-width="1.6" stroke-dasharray="4 3"/>
+      <path transform="translate(358 34)" d="M-8 0 C-5 -5 0 -5 2 -1 L8 -4 L5 1 C3 6 -4 6 -8 0 Z" fill="#e0a35c" fill-opacity="0.2"/>
+      <g transform="translate(390 32)">
+        <circle cx="0" cy="-5" r="3.5" fill="#e0a35c" fill-opacity="0.2"/>
+        <path d="M-6 8 C-6 2 -3 0 0 0 C3 0 6 2 6 8"/>
+      </g>
+      <g transform="translate(374 58)">
+        <path d="M-6 4 L-5 -3 C-5 -8 5 -8 5 -3 L6 4 Z" fill="#e0a35c" fill-opacity="0.2"/>
+        <path d="M-2 7 L2 7"/>
+      </g>
+    </g>
+
+    <!-- 몸에서 떼어 낸 소리 -->
+    <g stroke="#9a8fe0" stroke-width="1.8">
+      <circle cx="150" cy="196" r="7" fill="#9a8fe0" fill-opacity="0.25"/>
+      <path d="M137 226 C137 212 142 205 150 205 C158 205 163 212 163 226"/>
+      <path d="M168 202 A8 8 0 0 1 168 214 M174 197 A14 14 0 0 1 174 219"/>
+    </g>
+    <path d="M196 186 L196 230" stroke="#e0a35c" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <g transform="translate(196 186)" stroke="#e0a35c" stroke-width="1.5">
+      <circle cx="-4" cy="-6" r="3"/><circle cx="4" cy="-6" r="3"/>
+      <path d="M-2.5 -3.5 L4 6 M2.5 -3.5 L-4 6"/>
+    </g>
+    <path d="M212 208 L258 208 M253 204 L258 208 L253 212" stroke="#85858f" stroke-opacity="0.7" stroke-width="1.6"/>
+    <g stroke="#9a8fe0" stroke-width="1.8">
+      <path d="M272 202 L279 202 L289 193 L289 223 L279 214 L272 214 Z" fill="#9a8fe0" fill-opacity="0.2"/>
+      <path d="M296 202 A8 8 0 0 1 296 214 M302 197 A14 14 0 0 1 302 219"/>
+    </g>
+  </g>
+
+  <g text-anchor="middle" font-size="13">
+    <text x="184" y="164" fill="#85858f">장막 뒤의 몸</text>
+    <text x="245" y="148" fill="#9a8fe0" font-weight="700">소리만</text>
+    <text x="332" y="148" fill="#85858f">듣는 이</text>
+    <text x="434" y="96" fill="#e0a35c" font-weight="700">무엇일까?</text>
+  </g>
+  <g text-anchor="middle" font-size="12">
+    <text x="210" y="243" fill="#85858f">몸에 붙은 소리</text>
+    <text x="356" y="243" fill="#9a8fe0" font-weight="700">몸에서 떼어 낸 소리</text>
+  </g>
+  <text x="416" y="211" font-size="12" fill="#85858f">녹음 · 스피커</text>
+</svg>
